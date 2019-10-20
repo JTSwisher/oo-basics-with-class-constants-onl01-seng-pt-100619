@@ -5,7 +5,7 @@ class Book
   GENRES = []
   
   def GENRES
-    genre.each << GENRES
+    @genre.each << GENRES
   end
 
   def initialize(title)
